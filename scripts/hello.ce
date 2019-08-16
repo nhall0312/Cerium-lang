@@ -1,0 +1,41 @@
+// The first three lines are comments and won't execute
+// output.print("You won't see this")
+// The instructions below will loop the script twice with a 10 second delay
+
+## REPEAT 2
+## DELAY 10000
+
+$num1 = 8
+$num2 = 5
+
+$addition = math.add($num1, $num2)
+$subtraction = math.subtract($num1, $num2)
+$multiplication = math.multiply(2, 4)
+$division = math.divide(36, 6)
+$evaluate = math.evaluate(1 + 5 * 7 - 4 / 2)
+
+output.print("Addition: $addition")
+output.print("Subtraction: $subtraction")
+output.print("Multiplication: $multiplication")
+output.print("Division: $division")
+output.print("Evaluate: $evaluate")
+
+$message = This is a test message
+$other = This is a different message
+
+if (math.isGreater(5, 2) => output.print("This is a true conditional"))
+!if (string.areEqual($message, $other) => output.print("This is a false conditional")
+
+output.print("Hello world!")
+
+output.print("Pausing for 3 seconds...")
+
+time.pause(3000)
+
+$time = time.getTime()
+
+output.print("Current time: $time")
+
+output.print("$message")
+
+output.error("Example error")
